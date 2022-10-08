@@ -1,7 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    pdfkit (0.5.2)
+    pdfkit (0.8.7)
     rack (1.4.1)
     rack-protection (1.2.0)
       rack
@@ -17,7 +17,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  pdfkit
+  pdfkit (>= 0.8.7)
   rake
   redcarpet (~> 2.0)
   sinatra
+
+BUNDLED WITH
+   2.1.4
